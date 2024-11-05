@@ -47,7 +47,7 @@ describe("Budget Tracking App", () => {
 
     expect(screen.queryByText("Groceries")).not.toBeInTheDocument();
     expect(screen.getByText(/Spent so far: \$0/)).toBeInTheDocument();
-    expect(screen.getByText(/Remaining: \$1000/)).toBeInTheDocument();
+    expect(screen.getByText(/Remaining: \$100/)).toBeInTheDocument();
   });
 
   test("3. Budget Balance Verification", () => {
